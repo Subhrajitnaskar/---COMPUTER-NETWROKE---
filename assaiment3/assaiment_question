@@ -1,0 +1,27 @@
+CSE/PC/B/S/314 Computer Networks Lab
+CO3: Design and implement medium access control mechanisms within a simulated network
+environment using IEEE 802 standards.
+Assignment 3: 
+
+Implement p-persistent CSMA technique with collision detection.
+Code demonstration due on: 22-26 September 2025 (in your respective lab classes)
+Report submission due on: next lab classes
+
+Softcopy of the report to be uploaded in the drive.
+Language: You can write the program in any high level language like C, C++, Java, Python etc.
+Please note that you may need to use these schemes separately for other applications (assignments).
+Use the same sender-receiver design as previous assignments.
+In this assignment, you have to implement a p-persistent CSMA technique with collision
+detection. Measure the performance parameters like throughput (i.e., average amount of data
+bits successfully transmitted per unit time) and forwarding delay (i.e., average end-to-end delay,
+including the queuing delay and the transmission delay) experienced by the CSMA frames (IEEE
+802.3).
+
+ Consider adding a Collision Detection module at the sender side. This will randomly
+inject collisions in the system.
+
+Test the above schemes for the following cases (not limited to).
+
+i) Plot the comparison graphs for throughput and forwarding delay by varying p.
+ii) Compare efficiency of the above approach by varying p.
+State your observations on the impact of performance of CSMA-CD in different scenarios.
